@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron main-menu">
+            <h1 class="col-sm-12">Who Wants to be a trillionaire</h1>
+            <p><a class="btn btn-success btn-lg" name="Start-Button" role="button">Start</a></p>
+        </div>
+
+        <form  name="questionForm" onsubmit="return submitAnswers ()">
+            <p>1.) How many licks does it take to get to the center of a tootsie pop?</p>
+            <input type="radio" name="q1" value="a" id="q1a"> a. 375
+            <br>
+            <input type="radio" name="q1" value="b" id="q1b"> b. 674
+            <br>
+            <input type="radio" name="q1" value="c" id="q1c"> c. A lot
+            <br>
+            <input type="radio" name="q1" value="d" id="q1d"> d. The world may never know.
+
+            <br><br>
+            <p>2.) Where is the North Pole?</p>
+            <input type="radio" name="q2" value="a" id="q2a"> a. The Arctic
+            <br>
+            <input type="radio" name="q2" value="b" id="q2b"> b. Miami
+            <br>
+            <input type="radio" name="q2" value="c" id="q2c"> c. My Basement
+            <br>
+            <input type="radio" name="q2" value="d" id="q2d"> d. Where Santa Lives
+
+            <br><br>
+            <p>3.) What is the fastest car in the world 0 to 60 time?</p>
+            <input type="radio" name="q3" value="a" id="q3a"> a. bugatti
+            <br>
+            <input type="radio" name="q3" value="b" id="q3b"> b. Tesla roadster 
+            <br>
+            <input type="radio" name="q3" value="c" id="q3c"> c. Lamborghini
+            <br>
+            <input type="radio" name="q3" value="d" id="q3d"> d. tricycle
+
+            <br><br>
+            <p>4.) How tall is Kevin Hart?</p>
+            <input type="radio" name="q4" value="a" id="q4a"> a. 4'11"
+            <br>
+            <input type="radio" name="q4" value="b" id="q4b"> b. 5'7"
+            <br>
+            <input type="radio" name="q4" value="c" id="q4c"> c. 6'1"
+            <br>
+            <input type="radio" name="q4" value="d" id="q4d"> d. 5'3"
+
+            <br><br>
+            <p>5.) Where's Waldo?</p>
+            <input type="radio" name="q5" value="a" id="q5a"> a. Nebraska
+            <br>
+            <input type="radio" name="q5" value="b" id="q5b"> b. Your mom's kitchen
+            <br>
+            <input type="radio" name="q5" value="c" id="q5c"> c. South Park
+            <br>
+            <input type="radio" name="q5" value="d" id="q5d"> d. IDK
+            <br><br>
+            <input type="submit" value="Submit Answers">
+        </form>
+    </div>
+
+    <div class="col-sm-12 footer">
+        <p>cpoyright © Devin Baran 2018</p>
+    </div>
+
+</body>
+</html>
