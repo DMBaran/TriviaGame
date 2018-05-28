@@ -2,7 +2,7 @@ var total = 5;
 var score = 0;
 
 window.onload = function () {
-    var oneMinute = 25 * 1,
+    var oneMinute = 120 * 1,
         display = document.querySelector('#time');
     startTimer(oneMinute, display);
 
